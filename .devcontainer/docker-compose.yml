@@ -9,12 +9,12 @@ services:
       - ..:/workspace:cached
     command: sleep infinity
     networks:
-      - chainsharp-network
+      - Monadic-network
     depends_on:
       - database
     environment:
       - DOTNET_ENVIRONMENT=Development
-      - ConnectionStrings__ChainSharpDb=Host=database;Database=chain_sharp;Username=chain_sharp;Password=chain_sharp123
+      - ConnectionStrings__MonadicDb=Host=database;Database=chain_sharp;Username=chain_sharp;Password=chain_sharp123
 
   database:
     container_name: chain_sharp_database
@@ -30,10 +30,10 @@ services:
     ports:
       - "5432:5432"
     networks:
-      - chainsharp-network
+      - Monadic-network
 
 networks:
-  chainsharp-network:
+  Monadic-network:
     driver: bridge
 
 volumes:

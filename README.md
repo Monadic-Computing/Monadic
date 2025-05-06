@@ -1,11 +1,11 @@
-# ChainSharp
+# Monadic
 
-[![Build Status](https://github.com/Theauxm/ChainSharp/workflows/Release%20NuGet%20Package/badge.svg)](https://github.com/Theauxm/ChainSharp/actions)
-[![Test Status](https://github.com/Theauxm/ChainSharp/workflows/ChainSharp:%20Run%20CI/CD%20Test%20Suite/badge.svg)](https://github.com/Theauxm/ChainSharp/actions)
+[![Build Status](https://github.com/Theauxm/Monadic/workflows/Release%20NuGet%20Package/badge.svg)](https://github.com/Theauxm/Monadic/actions)
+[![Test Status](https://github.com/Theauxm/Monadic/workflows/Monadic:%20Run%20CI/CD%20Test%20Suite/badge.svg)](https://github.com/Theauxm/Monadic/actions)
 
 ## Description
 
-ChainSharp is a .NET library for Railway Oriented Programming, building from functional concepts and attempting to create an encapsulated way of running a piece of code with discrete steps. It aims to simplify complex workflows by providing a clear, linear flow of operations while handling errors and maintaining code readability.
+Monadic is a .NET library for Railway Oriented Programming, building from functional concepts and attempting to create an encapsulated way of running a piece of code with discrete steps. It aims to simplify complex workflows by providing a clear, linear flow of operations while handling errors and maintaining code readability.
 
 ## Features
 
@@ -17,41 +17,41 @@ ChainSharp is a .NET library for Railway Oriented Programming, building from fun
 
 ## Installation
 
-You can install ChainSharp via NuGet. Run the following command in your package manager console:
+You can install Monadic via NuGet. Run the following command in your package manager console:
 
 ```sh
-dotnet add package Theauxm.ChainSharp
+dotnet add package Theauxm.Monadic
 ```
 
 Or, you can add it directly to your `.csproj` file:
 
 ```csharp
-<PackageReference Include="Theauxm.ChainSharp" Version="..." />
+<PackageReference Include="Theauxm.Monadic" Version="..." />
 ```
 
 ## Available NuGet Packages
 
-ChainSharp is distributed as several NuGet packages, each providing specific functionality:
+Monadic is distributed as several NuGet packages, each providing specific functionality:
 
 | Package | Description | Version |
 |---------|-------------|---------|
-| [Theauxm.ChainSharp.Effect](https://www.nuget.org/packages/Theauxm.ChainSharp.Effect/) | Effects for ChainSharp Workflows | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.ChainSharp.Effect) |
-| [Theauxm.ChainSharp.Effect.Data](https://www.nuget.org/packages/Theauxm.ChainSharp.Effect.Data/) | Data persistence abstractions for ChainSharp Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.ChainSharp.Effect.Data) |
-| [Theauxm.ChainSharp.Effect.Data.InMemory](https://www.nuget.org/packages/Theauxm.ChainSharp.Effect.Data.InMemory/) | In-memory data persistence for ChainSharp Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.ChainSharp.Effect.Data.InMemory) |
-| [Theauxm.ChainSharp.Effect.Data.Postgres](https://www.nuget.org/packages/Theauxm.ChainSharp.Effect.Data.Postgres/) | PostgreSQL data persistence for ChainSharp Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.ChainSharp.Effect.Data.Postgres) |
-| [Theauxm.ChainSharp.Effect.Json](https://www.nuget.org/packages/Theauxm.ChainSharp.Effect.Json/) | JSON serialization for ChainSharp Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.ChainSharp.Effect.Json) |
-| [Theauxm.ChainSharp.Effect.Mediator](https://www.nuget.org/packages/Theauxm.ChainSharp.Effect.Mediator/) | Mediator pattern implementation for ChainSharp Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.ChainSharp.Effect.Mediator) |
-| [Theauxm.ChainSharp.Effect.Parameter](https://www.nuget.org/packages/Theauxm.ChainSharp.Effect.Parameter/) | Parameter serialization for ChainSharp Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.ChainSharp.Effect.Parameter) |
+| [Theauxm.Monadic.Effect](https://www.nuget.org/packages/Theauxm.Monadic.Effect/) | Effects for Monadic Workflows | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.Monadic.Effect) |
+| [Theauxm.Monadic.Effect.Data](https://www.nuget.org/packages/Theauxm.Monadic.Effect.Data/) | Data persistence abstractions for Monadic Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.Monadic.Effect.Data) |
+| [Theauxm.Monadic.Effect.Data.InMemory](https://www.nuget.org/packages/Theauxm.Monadic.Effect.Data.InMemory/) | In-memory data persistence for Monadic Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.Monadic.Effect.Data.InMemory) |
+| [Theauxm.Monadic.Effect.Data.Postgres](https://www.nuget.org/packages/Theauxm.Monadic.Effect.Data.Postgres/) | PostgreSQL data persistence for Monadic Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.Monadic.Effect.Data.Postgres) |
+| [Theauxm.Monadic.Effect.Json](https://www.nuget.org/packages/Theauxm.Monadic.Effect.Json/) | JSON serialization for Monadic Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.Monadic.Effect.Json) |
+| [Theauxm.Monadic.Effect.Mediator](https://www.nuget.org/packages/Theauxm.Monadic.Effect.Mediator/) | Mediator pattern implementation for Monadic Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.Monadic.Effect.Mediator) |
+| [Theauxm.Monadic.Effect.Parameter](https://www.nuget.org/packages/Theauxm.Monadic.Effect.Parameter/) | Parameter serialization for Monadic Effects | ![NuGet Version](https://img.shields.io/nuget/v/Theauxm.Monadic.Effect.Parameter) |
 
 ## Usage Examples
 
 ### Basic Workflow
 
-A workflow in ChainSharp represents a sequence of steps that process data in a linear fashion. Here's a basic example of a workflow:
+A workflow in Monadic represents a sequence of steps that process data in a linear fashion. Here's a basic example of a workflow:
 
 ```csharp
-using ChainSharp.Exceptions;
-using ChainSharp.Workflow;
+using Monadic.Exceptions;
+using Monadic.Workflow;
 using LanguageExt;
 
 // Define a workflow that takes Ingredients as input and produces a List<GlassBottle> as output
@@ -76,8 +76,8 @@ public class Cider
 Steps are the building blocks of workflows. Each step performs a specific operation and can be chained together to form a complete workflow. Here's an example of a step:
 
 ```csharp
-using ChainSharp.Exceptions;
-using ChainSharp.Step;
+using Monadic.Exceptions;
+using Monadic.Step;
 using LanguageExt;
 using LanguageExt.UnsafeValueAccess;
 
@@ -114,7 +114,7 @@ public class Prepare : Step<Ingredients, BrewingJug>, IPrepare
 EffectWorkflows extend the basic workflow concept by adding support for effects, which allow for side effects like logging, data persistence, and more. Here's an example of an EffectWorkflow:
 
 ```csharp
-using ChainSharp.Effect.Services.EffectWorkflow;
+using Monadic.Effect.Services.EffectWorkflow;
 using LanguageExt;
 
 // Define an EffectWorkflow that takes TestEffectWorkflowInput as input and produces TestEffectWorkflow as output
@@ -144,8 +144,8 @@ The WorkflowBus provides a way to run workflows from anywhere in your applicatio
 #### Using WorkflowBus in a Step
 
 ```csharp
-using ChainSharp.Step;
-using ChainSharp.Effect.Mediator.Services.WorkflowBus;
+using Monadic.Step;
+using Monadic.Effect.Mediator.Services.WorkflowBus;
 using Microsoft.Extensions.Logging;
 using LanguageExt;
 
@@ -168,8 +168,8 @@ internal class StepToRunNestedWorkflow(IWorkflowBus workflowBus) : Step<Unit, II
 
 ```csharp
 using Microsoft.AspNetCore.Mvc;
-using ChainSharp.Effect.Mediator.Services.WorkflowBus;
-using ChainSharp.Exceptions;
+using Monadic.Effect.Mediator.Services.WorkflowBus;
+using Monadic.Exceptions;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -215,11 +215,11 @@ public class OrdersController(IWorkflowBus _workflowBus) : ControllerBase
 
 ```csharp
 using Microsoft.Extensions.DependencyInjection;
-using ChainSharp.Effect.Extensions;
+using Monadic.Effect.Extensions;
 
-// Register ChainSharp services with dependency injection
+// Register Monadic services with dependency injection
 new ServiceCollection()
-    .AddChainSharpEffects(
+    .AddMonadicEffects(
         options =>
             options
                 .AddEffectWorkflowBus(
@@ -233,7 +233,7 @@ new ServiceCollection()
 
 ## Documentation
 
-For detailed documentation and API references, please visit the [official documentation.](https://github.com/Theauxm/ChainSharp/wiki)
+For detailed documentation and API references, please visit the [official documentation.](https://github.com/Theauxm/Monadic/wiki)
 
 ## Contributing
 
@@ -241,7 +241,7 @@ Contributions are welcome! Please read our Contributing Guide to learn about our
 
 ## License
 
-ChainSharp is licensed under the MIT License.
+Monadic is licensed under the MIT License.
 
 ## Contact
 

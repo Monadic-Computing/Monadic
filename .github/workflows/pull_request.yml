@@ -1,4 +1,4 @@
-name: "ChainSharp: Run CI/CD Test Suite"
+name: "Monadic: Run CI/CD Test Suite"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}

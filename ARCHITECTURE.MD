@@ -1,10 +1,10 @@
-# ChainSharp Architecture
+# Monadic Architecture
 
-ChainSharp is a .NET library that provides a workflow engine for building and executing chains of operations. This document provides an overview of the project architecture and development environment setup.
+Monadic is a .NET library that provides a workflow engine for building and executing chains of operations. This document provides an overview of the project architecture and development environment setup.
 
 ## Development Environment
 
-ChainSharp uses a development container (devcontainer) configuration to provide a consistent development environment across different machines. This ensures that all developers have the same tools and dependencies installed, reducing "it works on my machine" issues.
+Monadic uses a development container (devcontainer) configuration to provide a consistent development environment across different machines. This ensures that all developers have the same tools and dependencies installed, reducing "it works on my machine" issues.
 
 ### Using the Dev Container
 
@@ -17,8 +17,8 @@ ChainSharp uses a development container (devcontainer) configuration to provide 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ChainSharp.git
-   cd ChainSharp
+   git clone https://github.com/yourusername/Monadic.git
+   cd Monadic
    ```
 
 2. Open the project in Visual Studio Code:
@@ -70,21 +70,21 @@ The container is configured to:
 
 ## Project Structure
 
-ChainSharp is organized into several projects:
+Monadic is organized into several projects:
 
-- **ChainSharp**: Core library containing the workflow engine
-- **ChainSharp.Effect**: Extensions for tracking workflow execution
-- **ChainSharp.Effect.Data**: Database persistence for workflow metadata
-- **ChainSharp.Effect.Data.InMemory**: In-memory database implementation for testing
-- **ChainSharp.Effect.Data.Postgres**: PostgreSQL database implementation for production
-- **ChainSharp.Effect.Json**: JSON serialization support
-- **ChainSharp.Effect.Mediator**: Mediator pattern implementation for workflows
-- **ChainSharp.Effect.Parameter**: Parameter handling for workflows
-- **ChainSharp.Tests**: Test projects for the library
+- **Monadic**: Core library containing the workflow engine
+- **Monadic.Effect**: Extensions for tracking workflow execution
+- **Monadic.Effect.Data**: Database persistence for workflow metadata
+- **Monadic.Effect.Data.InMemory**: In-memory database implementation for testing
+- **Monadic.Effect.Data.Postgres**: PostgreSQL database implementation for production
+- **Monadic.Effect.Json**: JSON serialization support
+- **Monadic.Effect.Mediator**: Mediator pattern implementation for workflows
+- **Monadic.Effect.Parameter**: Parameter handling for workflows
+- **Monadic.Tests**: Test projects for the library
 
 ## Running Tests
 
-ChainSharp includes several test projects for different components of the system. You can run the tests using the .NET CLI or the VS Code Test Explorer.
+Monadic includes several test projects for different components of the system. You can run the tests using the .NET CLI or the VS Code Test Explorer.
 
 ### Using the .NET CLI
 
@@ -97,7 +97,7 @@ dotnet test
 To run tests for a specific project:
 
 ```bash
-dotnet test ChainSharp.Tests/ChainSharp.Tests.csproj
+dotnet test Monadic.Tests/Monadic.Tests.csproj
 ```
 
 ### Using VS Code Test Explorer
@@ -109,17 +109,17 @@ dotnet test ChainSharp.Tests/ChainSharp.Tests.csproj
 
 The integration tests for the PostgreSQL implementation require a running PostgreSQL database. When running inside the dev container, this is automatically set up for you.
 
-The tests use the connection string from the environment variable `ConnectionStrings__ChainSharpDb`, which is configured in the dev container.
+The tests use the connection string from the environment variable `ConnectionStrings__MonadicDb`, which is configured in the dev container.
 
 ## Database Migrations
 
-The PostgreSQL implementation includes database migrations that are automatically applied when the application starts. The migrations are defined in SQL files in the `ChainSharp.Effect.Data.Postgres/Migrations` directory.
+The PostgreSQL implementation includes database migrations that are automatically applied when the application starts. The migrations are defined in SQL files in the `Monadic.Effect.Data.Postgres/Migrations` directory.
 
 To manually apply migrations:
 
 ```csharp
 // In your application startup code
-using ChainSharp.Effect.Data.Postgres.Utils;
+using Monadic.Effect.Data.Postgres.Utils;
 
 // ...
 
@@ -128,7 +128,7 @@ await DatabaseMigrator.Migrate(connectionString);
 
 ## Contributing
 
-When contributing to ChainSharp, please:
+When contributing to Monadic, please:
 
 1. Create a new branch for your changes
 2. Write tests for your changes
