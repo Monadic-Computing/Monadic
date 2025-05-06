@@ -7,7 +7,7 @@
         <Authors>Theauxm,mark-keaton</Authors>
         <PackageDescription>In Memory Provider for Monadic.Effect.Data Library</PackageDescription>
         <RepositoryUrl>https://github.com/Theauxm/Monadic</RepositoryUrl>
-        <AssemblyName>Theauxm.Monadic.Effect.Data.InMemory</AssemblyName>
+        <AssemblyName>Monadic.Effect.Data.InMemory</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>

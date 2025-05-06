@@ -7,7 +7,7 @@
         <Authors>Theauxm,mark-keaton</Authors>
         <PackageDescription>Railway Oriented .NET Programming</PackageDescription>
         <RepositoryUrl>https://github.com/Theauxm/Monadic</RepositoryUrl>
-        <AssemblyName>Theauxm.Monadic</AssemblyName>
+        <AssemblyName>Monadic</AssemblyName>
     </PropertyGroup>
 
     <PropertyGroup>

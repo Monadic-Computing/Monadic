@@ -7,7 +7,7 @@
         <Authors>Theauxm,mark-keaton</Authors>
         <PackageDescription>Effects for Monadic Workflows</PackageDescription>
         <RepositoryUrl>https://github.com/Theauxm/Monadic</RepositoryUrl>
-        <AssemblyName>Theauxm.Monadic.Effect</AssemblyName>
+        <AssemblyName>Monadic.Effect</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
