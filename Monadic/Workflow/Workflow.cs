@@ -1,6 +1,6 @@
-using Monadic.Extensions;
 using LanguageExt;
 using LanguageExt.UnsafeValueAccess;
+using Monadic.Extensions;
 
 namespace Monadic.Workflow;
 

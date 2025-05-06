@@ -1,9 +1,9 @@
 using System.Reflection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Monadic.Effect.Data.Postgres.Utils;
 using Monadic.Effect.Enums;
 using Monadic.Effect.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Npgsql;
 
 namespace Monadic.Effect.Data.Postgres.Extensions;

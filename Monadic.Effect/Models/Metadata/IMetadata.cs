@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json;
-using Monadic.Effect.Enums;
 using LanguageExt;
+using Monadic.Effect.Enums;
 
 namespace Monadic.Effect.Models.Metadata;
 

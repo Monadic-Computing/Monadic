@@ -4,9 +4,9 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 using Monadic.Effect.Configuration.MonadicEffectConfiguration;
 using Monadic.Effect.Models;
-using Microsoft.Extensions.Logging;
 
 namespace Monadic.Effect.Json.Services.JsonEffect;
 

@@ -1,9 +1,9 @@
+using LanguageExt;
+using LanguageExt.UnsafeValueAccess;
 using Monadic.Exceptions;
 using Monadic.Extensions;
 using Monadic.Step;
 using Monadic.Utils;
-using LanguageExt;
-using LanguageExt.UnsafeValueAccess;
 
 namespace Monadic.Workflow;
 

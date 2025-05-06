@@ -1,5 +1,5 @@
-using Monadic.Exceptions;
 using FluentAssertions;
+using Monadic.Exceptions;
 
 namespace Monadic.Tests.Unit.UnitTests.Utils;
 

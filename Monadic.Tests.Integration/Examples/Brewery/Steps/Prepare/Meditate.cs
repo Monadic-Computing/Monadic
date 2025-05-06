@@ -1,5 +1,5 @@
-using Monadic.Step;
 using LanguageExt;
+using Monadic.Step;
 using static LanguageExt.Prelude;
 
 namespace Monadic.Tests.Integration.Examples.Brewery.Steps.Prepare;

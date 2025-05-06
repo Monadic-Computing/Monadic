@@ -1,10 +1,10 @@
 using System.Runtime.CompilerServices;
-using Monadic.Exceptions;
-using Monadic.Utils;
-using Monadic.Workflow;
 using LanguageExt;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Monadic.Exceptions;
+using Monadic.Utils;
+using Monadic.Workflow;
 
 namespace Monadic.Extensions;
 

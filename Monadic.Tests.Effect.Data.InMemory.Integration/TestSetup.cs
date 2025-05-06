@@ -1,7 +1,7 @@
+using Microsoft.Extensions.DependencyInjection;
 using Monadic.Effect.Data.Extensions;
 using Monadic.Effect.Data.InMemory.Extensions;
 using Monadic.Effect.Extensions;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Monadic.Tests.Effect.Data.InMemory.Integration;
 

@@ -1,6 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using Monadic.Effect.Data.Postgres.Extensions;
 using Monadic.Effect.Data.Services.DataContext;
-using Microsoft.EntityFrameworkCore;
 
 namespace Monadic.Effect.Data.Postgres.Services.PostgresContext;
 

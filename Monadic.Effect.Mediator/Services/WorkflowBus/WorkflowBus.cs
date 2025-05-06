@@ -1,12 +1,12 @@
 using System.Reflection;
+using LanguageExt.ClassInstances;
+using Microsoft.Extensions.DependencyInjection;
 using Monadic.Effect.Extensions;
 using Monadic.Effect.Mediator.Services.WorkflowRegistry;
 using Monadic.Effect.Models.Metadata;
 using Monadic.Effect.Services.EffectWorkflow;
 using Monadic.Exceptions;
 using Monadic.Workflow;
-using LanguageExt.ClassInstances;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Monadic.Effect.Mediator.Services.WorkflowBus;
 

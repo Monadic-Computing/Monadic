@@ -1,6 +1,6 @@
+using Microsoft.Extensions.Logging;
 using Monadic.Effect.Models.Log;
 using Monadic.Effect.Models.Log.DTOs;
-using Microsoft.Extensions.Logging;
 
 namespace Monadic.ArrayLogger.Services.ArrayLoggingProvider;
 

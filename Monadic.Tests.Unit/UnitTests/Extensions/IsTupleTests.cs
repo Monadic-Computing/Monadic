@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
-using Monadic.Extensions;
 using FluentAssertions;
+using Monadic.Extensions;
 
 namespace Monadic.Tests.Unit.UnitTests.Extensions;
 

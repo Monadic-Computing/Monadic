@@ -1,9 +1,9 @@
+using Microsoft.Extensions.DependencyInjection;
 using Monadic.Effect.Configuration.MonadicEffectBuilder;
 using Monadic.Effect.Extensions;
 using Monadic.Effect.Json.Services.JsonEffect;
 using Monadic.Effect.Json.Services.JsonEffectFactory;
 using Monadic.Effect.Services.EffectProviderFactory;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Monadic.Effect.Json.Extensions;
 

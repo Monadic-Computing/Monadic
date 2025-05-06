@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
-using Monadic.Effect.Models.Log.DTOs;
 using Microsoft.Extensions.Logging;
+using Monadic.Effect.Models.Log.DTOs;
 
 namespace Monadic.Effect.Models.Log;
 

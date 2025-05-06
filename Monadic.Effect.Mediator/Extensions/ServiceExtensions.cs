@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
 using Monadic.Effect.Configuration.MonadicEffectBuilder;
 using Monadic.Effect.Extensions;
 using Monadic.Effect.Mediator.Services.WorkflowBus;
 using Monadic.Effect.Mediator.Services.WorkflowRegistry;
 using Monadic.Effect.Services.EffectWorkflow;
 using Monadic.Exceptions;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Monadic.Effect.Mediator.Extensions;
 

@@ -1,7 +1,7 @@
-using Monadic.Step;
 using FluentAssertions;
 using LanguageExt;
 using LanguageExt.UnsafeValueAccess;
+using Monadic.Step;
 
 namespace Monadic.Tests.Unit.UnitTests.Step;
 

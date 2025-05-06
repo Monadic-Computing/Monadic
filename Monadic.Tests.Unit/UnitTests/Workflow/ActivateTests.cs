@@ -1,6 +1,6 @@
-using Monadic.Workflow;
 using FluentAssertions;
 using LanguageExt;
+using Monadic.Workflow;
 
 namespace Monadic.Tests.Unit.UnitTests.Workflow;
 

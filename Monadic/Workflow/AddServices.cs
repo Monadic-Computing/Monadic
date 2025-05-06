@@ -1,6 +1,6 @@
+using LanguageExt;
 using Monadic.Exceptions;
 using Monadic.Extensions;
-using LanguageExt;
 
 namespace Monadic.Workflow;
 

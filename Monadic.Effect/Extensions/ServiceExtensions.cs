@@ -1,12 +1,12 @@
 using System.Reflection;
 using System.Text.Json;
+using Microsoft.Extensions.DependencyInjection;
 using Monadic.Effect.Attributes;
 using Monadic.Effect.Configuration.MonadicEffectBuilder;
 using Monadic.Effect.Configuration.MonadicEffectConfiguration;
 using Monadic.Effect.Services.EffectProviderFactory;
 using Monadic.Effect.Services.EffectRunner;
 using Monadic.Effect.Utils;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Monadic.Effect.Extensions;
 

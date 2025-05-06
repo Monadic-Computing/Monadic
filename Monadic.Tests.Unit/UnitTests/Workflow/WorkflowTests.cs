@@ -1,7 +1,7 @@
-using Monadic.Exceptions;
-using Monadic.Workflow;
 using FluentAssertions;
 using LanguageExt;
+using Monadic.Exceptions;
+using Monadic.Workflow;
 
 namespace Monadic.Tests.Unit.UnitTests.Workflow;
 

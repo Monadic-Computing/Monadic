@@ -1,3 +1,6 @@
+using FluentAssertions;
+using LanguageExt;
+using Microsoft.Extensions.Logging;
 using Monadic.Exceptions;
 using Monadic.Step;
 using Monadic.Tests.Integration.Examples.Brewery;
@@ -6,9 +9,6 @@ using Monadic.Tests.Integration.Examples.Brewery.Steps.Brew;
 using Monadic.Tests.Integration.Examples.Brewery.Steps.Ferment;
 using Monadic.Tests.Integration.Examples.Brewery.Steps.Prepare;
 using Monadic.Workflow;
-using FluentAssertions;
-using LanguageExt;
-using Microsoft.Extensions.Logging;
 using Moq;
 
 namespace Monadic.Tests.Integration.IntegrationTests;

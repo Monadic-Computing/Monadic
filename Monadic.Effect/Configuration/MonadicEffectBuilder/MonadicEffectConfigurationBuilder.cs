@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Monadic.Effect.Utils;
 using Microsoft.Extensions.DependencyInjection;
+using Monadic.Effect.Utils;
 
 namespace Monadic.Effect.Configuration.MonadicEffectBuilder;
 

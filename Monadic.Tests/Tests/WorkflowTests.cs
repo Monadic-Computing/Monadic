@@ -1,3 +1,6 @@
+using FluentAssertions;
+using LanguageExt;
+using Microsoft.Extensions.DependencyInjection;
 using Monadic.Exceptions;
 using Monadic.Step;
 using Monadic.Tests.Examples.Brewery;
@@ -6,9 +9,6 @@ using Monadic.Tests.Examples.Brewery.Steps.Brew;
 using Monadic.Tests.Examples.Brewery.Steps.Ferment;
 using Monadic.Tests.Examples.Brewery.Steps.Prepare;
 using Monadic.Workflow;
-using FluentAssertions;
-using LanguageExt;
-using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using NUnit.Framework;
 

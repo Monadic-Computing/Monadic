@@ -1,5 +1,5 @@
-using Monadic.Effect.Services.EffectWorkflow;
 using LanguageExt;
+using Monadic.Effect.Services.EffectWorkflow;
 
 namespace Monadic.Tests.Effect.Integration.Examples.Workflows;
 

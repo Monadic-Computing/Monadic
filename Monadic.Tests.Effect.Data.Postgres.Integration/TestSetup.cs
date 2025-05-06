@@ -1,3 +1,6 @@
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Monadic.ArrayLogger.Services.ArrayLoggingProvider;
 using Monadic.Effect.Data.Extensions;
 using Monadic.Effect.Data.Postgres.Extensions;
@@ -6,9 +9,6 @@ using Monadic.Effect.Json.Extensions;
 using Monadic.Effect.Mediator.Extensions;
 using Monadic.Effect.Mediator.Services.WorkflowBus;
 using Monadic.Effect.Parameter.Extensions;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace Monadic.Tests.Effect.Data.Postgres.Integration;
 

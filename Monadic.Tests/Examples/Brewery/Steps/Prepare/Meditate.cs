@@ -1,7 +1,7 @@
-using Monadic.Exceptions;
-using Monadic.Step;
 using LanguageExt;
 using LanguageExt.UnsafeValueAccess;
+using Monadic.Exceptions;
+using Monadic.Step;
 using static LanguageExt.Prelude;
 
 namespace Monadic.Tests.Examples.Brewery.Steps.Prepare;

@@ -1,6 +1,6 @@
 using System.Reflection;
-using Monadic.Effect.Models;
 using Microsoft.EntityFrameworkCore;
+using Monadic.Effect.Models;
 
 namespace Monadic.Effect.Data.Extensions;
 

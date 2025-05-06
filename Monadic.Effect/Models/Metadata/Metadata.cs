@@ -2,10 +2,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using LanguageExt;
 using Monadic.Effect.Enums;
 using Monadic.Effect.Extensions;
 using Monadic.Effect.Models.Metadata.DTOs;
-using LanguageExt;
 
 namespace Monadic.Effect.Models.Metadata;
 

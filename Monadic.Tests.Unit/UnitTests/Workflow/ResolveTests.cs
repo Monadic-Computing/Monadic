@@ -1,9 +1,9 @@
-using Monadic.Exceptions;
-using Monadic.Step;
-using Monadic.Workflow;
 using FluentAssertions;
 using LanguageExt;
 using LanguageExt.UnsafeValueAccess;
+using Monadic.Exceptions;
+using Monadic.Step;
+using Monadic.Workflow;
 
 namespace Monadic.Tests.Unit.UnitTests.Workflow;
 

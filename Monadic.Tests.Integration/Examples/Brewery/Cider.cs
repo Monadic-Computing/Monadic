@@ -1,9 +1,9 @@
+using LanguageExt;
 using Monadic.Tests.Integration.Examples.Brewery.Steps.Bottle;
 using Monadic.Tests.Integration.Examples.Brewery.Steps.Brew;
 using Monadic.Tests.Integration.Examples.Brewery.Steps.Ferment;
 using Monadic.Tests.Integration.Examples.Brewery.Steps.Prepare;
 using Monadic.Workflow;
-using LanguageExt;
 
 namespace Monadic.Tests.Integration.Examples.Brewery;
 

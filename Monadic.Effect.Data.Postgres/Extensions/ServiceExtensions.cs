@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Monadic.Effect.Configuration.MonadicEffectBuilder;
 using Monadic.Effect.Data.Enums;
 using Monadic.Effect.Data.Postgres.Services.PostgresContext;
@@ -7,11 +12,6 @@ using Monadic.Effect.Data.Services.DataContext;
 using Monadic.Effect.Data.Services.DataContextLoggingProvider;
 using Monadic.Effect.Data.Services.IDataContextFactory;
 using Monadic.Effect.Extensions;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Diagnostics;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.Abstractions;
 using Npgsql;
 
 namespace Monadic.Effect.Data.Postgres.Extensions;

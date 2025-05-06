@@ -1,6 +1,6 @@
+using LanguageExt;
 using Monadic.Effect.Data.Services.DataContext;
 using Monadic.Step;
-using LanguageExt;
 
 namespace Monadic.Effect.Data.Steps.CommitTransaction;
 

@@ -1,3 +1,6 @@
+using LanguageExt;
+using LanguageExt.UnsafeValueAccess;
+using Microsoft.Extensions.Logging;
 using Monadic.Effect.Attributes;
 using Monadic.Effect.Enums;
 using Monadic.Effect.Models.Metadata;
@@ -5,9 +8,6 @@ using Monadic.Effect.Models.Metadata.DTOs;
 using Monadic.Effect.Services.EffectRunner;
 using Monadic.Exceptions;
 using Monadic.Workflow;
-using LanguageExt;
-using LanguageExt.UnsafeValueAccess;
-using Microsoft.Extensions.Logging;
 
 namespace Monadic.Effect.Services.EffectWorkflow;
 

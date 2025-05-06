@@ -1,6 +1,6 @@
 using System.Reflection;
-using Monadic.Exceptions;
 using Microsoft.Extensions.Logging;
+using Monadic.Exceptions;
 
 namespace Monadic.Extensions;
 

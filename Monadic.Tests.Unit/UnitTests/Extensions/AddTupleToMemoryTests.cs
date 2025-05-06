@@ -1,9 +1,9 @@
 using System.Runtime.CompilerServices;
+using FluentAssertions;
+using LanguageExt;
 using Monadic.Exceptions;
 using Monadic.Extensions;
 using Monadic.Workflow;
-using FluentAssertions;
-using LanguageExt;
 
 namespace Monadic.Tests.Unit.UnitTests.Extensions;
 

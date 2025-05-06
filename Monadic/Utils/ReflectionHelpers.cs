@@ -1,7 +1,7 @@
 using System.Reflection;
+using LanguageExt;
 using Monadic.Step;
 using Monadic.Workflow;
-using LanguageExt;
 
 namespace Monadic.Utils;
 

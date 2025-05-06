@@ -1,10 +1,10 @@
+using LanguageExt;
 using Monadic.Exceptions;
 using Monadic.Tests.Examples.Brewery.Steps.Bottle;
 using Monadic.Tests.Examples.Brewery.Steps.Brew;
 using Monadic.Tests.Examples.Brewery.Steps.Ferment;
 using Monadic.Tests.Examples.Brewery.Steps.Prepare;
 using Monadic.Workflow;
-using LanguageExt;
 
 namespace Monadic.Tests.Examples.Brewery;
 

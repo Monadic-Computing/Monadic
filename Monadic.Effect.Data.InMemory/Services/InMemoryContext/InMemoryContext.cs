@@ -1,5 +1,5 @@
-using Monadic.Effect.Data.Services.DataContext;
 using Microsoft.EntityFrameworkCore;
+using Monadic.Effect.Data.Services.DataContext;
 
 namespace Monadic.Effect.Data.InMemory.Services.InMemoryContext;
 

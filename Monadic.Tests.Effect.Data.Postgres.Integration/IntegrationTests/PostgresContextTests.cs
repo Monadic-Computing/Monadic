@@ -1,3 +1,8 @@
+using FluentAssertions;
+using LanguageExt;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Monadic.ArrayLogger.Services.ArrayLoggingProvider;
 using Monadic.Effect.Data.Services.DataContext;
 using Monadic.Effect.Data.Services.IDataContextFactory;
@@ -6,11 +11,6 @@ using Monadic.Effect.Mediator.Services.WorkflowBus;
 using Monadic.Effect.Models.Metadata.DTOs;
 using Monadic.Effect.Services.EffectWorkflow;
 using Monadic.Step;
-using FluentAssertions;
-using LanguageExt;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Metadata = Monadic.Effect.Models.Metadata.Metadata;
 
 namespace Monadic.Tests.Effect.Data.Postgres.Integration.IntegrationTests;

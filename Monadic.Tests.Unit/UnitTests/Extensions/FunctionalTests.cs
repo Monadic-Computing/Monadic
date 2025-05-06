@@ -1,6 +1,6 @@
-using Monadic.Extensions;
 using FluentAssertions;
 using LanguageExt;
+using Monadic.Extensions;
 
 namespace Monadic.Tests.Unit.UnitTests.Extensions;
 

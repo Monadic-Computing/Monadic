@@ -1,8 +1,8 @@
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Monadic.ArrayLogger.Services.ArrayLoggingProvider;
 using Monadic.Effect.Extensions;
 using Monadic.Effect.Json.Extensions;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace Monadic.Tests.Effect.Json.Integration;
 

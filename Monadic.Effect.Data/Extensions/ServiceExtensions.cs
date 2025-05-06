@@ -1,9 +1,9 @@
 using System.Collections.Concurrent;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Monadic.Effect.Configuration.MonadicEffectBuilder;
 using Monadic.Effect.Data.Enums;
 using Monadic.Effect.Data.Services.DataContextLoggingProvider;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace Monadic.Effect.Data.Extensions;
 

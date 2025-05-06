@@ -1,8 +1,8 @@
+using LanguageExt;
+using LanguageExt.UnsafeValueAccess;
 using Monadic.Exceptions;
 using Monadic.Step;
 using Monadic.Tests.Examples.Brewery.Steps.Ferment;
-using LanguageExt;
-using LanguageExt.UnsafeValueAccess;
 
 namespace Monadic.Tests.Examples.Brewery.Steps.Prepare;
 

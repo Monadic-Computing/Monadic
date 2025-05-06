@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
-using Monadic.Effect.Data.Services.IDataContextFactory;
 using Microsoft.Extensions.Logging;
+using Monadic.Effect.Data.Services.IDataContextFactory;
 
 namespace Monadic.Effect.Data.Services.DataContextLoggingProvider;
 

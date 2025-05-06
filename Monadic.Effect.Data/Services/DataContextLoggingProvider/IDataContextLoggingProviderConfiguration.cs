@@ -1,5 +1,5 @@
-using Monadic.Effect.Data.Enums;
 using Microsoft.Extensions.Logging;
+using Monadic.Effect.Data.Enums;
 
 namespace Monadic.Effect.Data.Services.DataContextLoggingProvider;
 
